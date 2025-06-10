@@ -1,4 +1,5 @@
 from django.contrib import admin
-from .models import Article # models.pyからArticleクラスをインポート
+from .models import Article
+# Register your models here.
 
-admin.site.register(Article)    # DjangoAdminにArticleクラスを登録
+admin.site.register(Article)
