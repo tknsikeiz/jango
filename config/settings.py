@@ -149,4 +149,4 @@ SUPERUSER_NAME = env("SUPERUSER_NAME")
 SUPERUSER_EMAIL = env("SUPERUSER_EMAIL")
 SUPERUSER_PASSWORD = env("SUPERUSER_PASSWORD")
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static') # 追加 = os.path.join(BASE_DIR, 'staticfiles') # 追加
+STATIC_ROOT = os.path.join(BASE_DIR, 'static') # 追加 = os.path.join(BASE_DIR, 'staticfiles') # 追加g
